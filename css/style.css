@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .navbar {
+        background-color:rgb(239, 131, 84);
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .logo:hover {
+        color: rgb(79, 93, 117) ;
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-list li {
+        margin-right: 20px;
+    }
+    
+    .nav-list a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-list a:hover {
+        color: rgb(79, 93, 117); 
+    }
+    /*********section head-1*******/
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(79, 93, 117);
+    }
+    img {
+        height: 250px;
+
+    }
+    .tvorime {
+        text-align: center;
+    }
+    p {
+        text-align: center;    
+    }
+    .foto1 {
+        text-align: center;
+    }
+   
+    /**********praxe****/
+   .foto-cvmm {
+    text-align: center;
+   }
+    .img-uni {
+    text-align: center;    
+  }
+   
+
+    /*******kontakt*******/
+   .map1 {
+    text-align: center;
+   }
+    
+   .map2 {
+    text-align: center;
+   }
+
+   /***** Contact form *****/
+.contact-form {
+    max-width: 700px;
+    text-align: center;
+}
+
+.contact-form input {
+    width: 80%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+.contact-form textarea {
+    width: 80%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial;
+}
+
+input[type="submit"] {
+   background-color: rgb(239, 131, 84);
+    color: black;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    transition: background-color 0.5s;
+    background-color: rgb(79, 93, 117);
+    color: #fff;
+}
+
+    /***** Footer *****/
+    .footer-page {
+        background:rgb(79, 93, 117);
+         margin-top: 30px;
+         color:white;
+     }
+     
+     .social {
+         text-align: center;
+         margin: 20px 0;
+         padding: 10px;
+         font-size: 20px;
+     }
+            
+     .footer-text {
+         text-align: center;
+         margin: 10px 0;
+         padding: 10px;
+
+     }
+     
