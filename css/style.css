@@ -21,12 +21,12 @@
     }
     
     .logo {
-        color: white;
+        color: rgb(79, 93, 117);
         font-size: 24px;
         font-weight: bold;
     }
     .logo:hover {
-        color: rgb(79, 93, 117) ;
+        color: white;
     }
     
     .nav-list {
@@ -71,6 +71,7 @@
     /**********praxe****/
    .foto-cvmm {
     text-align: center;
+    
    }
     .img-uni {
     text-align: center;    
@@ -103,6 +104,9 @@
     border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
     
+}
+.info1 {
+    color: red;
 }
 
 .contact-form textarea {
