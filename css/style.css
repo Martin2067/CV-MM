@@ -10,6 +10,7 @@
     body {
         margin: 0;
         font-family: 'Arial', sans-serif;
+        background-color: #123;
     }
     
     .navbar {
@@ -52,7 +53,8 @@
     h2 {
         text-align: center;
         text-decoration: underline;
-        color: rgb(79, 93, 117);
+        color: white;
+        margin:25px;
     }
     img {
         height: 250px;
@@ -62,20 +64,37 @@
         text-align: center;
     }
     p {
-        text-align: center;    
+        text-align: center; 
+        color: white;
     }
     .foto1 {
         text-align: center;
     }
+
    
     /**********praxe****/
    .foto-cvmm {
     text-align: center;
+    height: 400px;
     
    }
+.foto-cvmm img{
+    height: 400px
+    
+}
     .img-uni {
-    text-align: center;    
+    text-align: center;
+    margin: 25px;    
   }
+.next1 img {
+    width: 400px;
+    height: 200px;
+    text-align: center
+}
+.form-calk {
+    text-align: center;
+}
+
    
 
     /*******kontakt*******/
